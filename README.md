@@ -6,14 +6,8 @@ Official repo for ([icecream](https://www.biorxiv.org/content/10.1101/2025.10.17
 Icecream is a self-supervised framework for cryo-ET reconstruction that integrates equivariance principles from modern imaging theory into a deep-learning architecture.
 Icecream provides a theoretically grounded and computationally efficient method that jointly performs denoising and missing-wedge correction.  
 
-### 🧊 Note
-The codebase is under active development. 
-
 ⚠️ **Important**: Icecream is tested with PyTorch 2.8. PyTorch 2.9 had an FP16 bug (see [this issue](https://github.com/pytorch/pytorch/issues/166122)) that is resolved in later versions, but these have not yet been fully validated. We recommend using PyTorch 2.8 for now.
 
-### ⚠️ Version Notice
-v0.3 contained a bug that degraded reconstruction performance relative to v0.2.  
-If you downloaded the code between 05.11.2025–28.11.2025, please update to the latest version.
 
 ### 📄 Changelog
 See the full list of updates in the [CHANGELOG.md](CHANGELOG.md).
