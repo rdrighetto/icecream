@@ -6,8 +6,9 @@ and uses categories like Added, Changed, Fixed, Removed.
 
 ## [v0.4] - 23.04.2026
 ### Added
- - Support for multi-GPU training, which internally uses `torch.nn.DataParallel` to distribute the training across multiple GPUs.
- - Integration tests for training commands. 
+ - Support for multi-GPU training, which internally uses torch's distributed dataparallel to distribute the training across multiple GPUs.
+ - Integration tests for training commands.
+ - To use multiple gpus simply include devices argument in your cli, for example: `--device 0,1`
 
 ## [v0.3] - 05.11.2025
 ### Added
